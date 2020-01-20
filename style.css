@@ -55,6 +55,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  display: table;
 }
 .box2 {
   height: 100vh;
@@ -63,6 +64,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  display: table;
 }
 .box3 {
   height: 100vh;
@@ -71,6 +73,7 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  display: table;
 }
 .box4 {
   height: 100vh;
@@ -79,6 +82,16 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  display: table;
+}
+h1 {
+  font-family: sans-serif;
+  font-size: 48px;
+  color: #fff;
+  margin: 0px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 1024px) {
