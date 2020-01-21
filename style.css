@@ -78,16 +78,6 @@ nav {
   background-attachment: fixed;
   display: table;
 }
-.box4 {
-  height: 100vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(images/image4.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: table;
-}
 h1 {
   font-family: cursive;
   font-size: 3rem;
@@ -119,6 +109,7 @@ h1 {
 .image-container img {
   height: 100%;
   width: 100%;
+  cursor: pointer;
 }
 
 .transition-image {
@@ -148,10 +139,51 @@ h1 {
   left: 0;
   opacity: 0;
   transition: opacity 0.5s ease;
+  cursor: pointer;
 }
 
 .fade:hover::after {
   opacity: 0.5;
+}
+
+.gallery-highlight {
+  width: 80%;
+  height: 50%;
+}
+section {
+  display: flex;
+  height: 100vh;
+}
+.img-gallery {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2d2c0;
+}
+
+.img-preview {
+  display: flex;
+  width: 80%;
+  border: 2px solid #e2d2c0;
+}
+.img-preview img {
+  height: 100px;
+  flex-grow: 1;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+img.img-active {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1024px) {
