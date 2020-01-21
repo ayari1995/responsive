@@ -262,10 +262,6 @@ ul li {
   object-fit: cover;
 }
 
-.buttons {
-  margin: 20px;
-}
-
 .hide {
   display: none;
 }
@@ -308,9 +304,9 @@ ul li {
 }
 #nextBtn {
   position: absolute;
-  right: 50%;
+  top: 50%;
   z-index: 10;
-  left: 5%;
+  right: 5%;
   font-size: 30px;
   color: #000;
   opacity: 0.5;
