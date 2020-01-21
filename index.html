@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
-
+  <script src="https://kit.fontawesome.com/5d150c2e88.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
   <title>NAVIGATION</title>
 </head>
@@ -93,6 +93,32 @@
       </div>
     </div>
   </div>
+  <div class="carousel-container">
+    <i class="fas fa-arrow-left" data-button-prev id="prevBtn"></i>
+    <i class="fas fa-arrow-right" data-button-next id="nextBtn"></i>
+    <ul class="track" data-track>
+      <li><img src="images/image4.jpg"></li>
+      <li><img src="images/image5.jpg"></li>
+      <li><img src="images/image6.jpg"></li>
+      <li><img src="images/img-big1.jpg"></li>
+      <li><img src="images/img-big2.jpg"></li>
+    </ul>
+
+    <div class="dots-nav" data-dots-nav>
+      <button class="dot"></button>
+      <button class="dot active-dot"></button>
+      <button class="dot"></button>
+      <button class="dot"></button>
+      <button class="dot"></button>
+      <button class="dot"></button>
+    </div>
+  </div>
+  <div class="buttons">
+    <button data-button-prev>Prev</button>
+    <button data-button-next>Next</button>
+  </div>
+
+
 
   <script src="app.js"></script>
 </body>
